@@ -687,6 +687,10 @@ app.post('/loginCompany',async(req,res)=>{
   
   })
 
+  app.get('/testserver',async(req,res)=>{
+  res.send("Ready");
+  })
+
 
   app.get('/getcompany/:companyid',async(req,res)=>{
 
