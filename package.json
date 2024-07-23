@@ -15,5 +15,16 @@
     "multer-gridfs-storage": "^5.0.2",
     "pg": "^8.11.3",
     "typescript": "^5.3.3"
-  }
+  },
+  "scripts": {
+    "start": "node jobserver.js"
+  },
+  "name": "web",
+  "version": "1.0.0",
+  "main": "customerclass.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
